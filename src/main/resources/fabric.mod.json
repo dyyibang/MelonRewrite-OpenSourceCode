@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "melon",
+  "version": "${version}",
+  "name": "Melon",
+  "description": "A Client Developed For 2B2T",
+  "authors": [
+    "zenhao",
+    "Pywong",
+    "dyzjct",
+    "DeSu0556",
+    "dragon-jpg",
+    "slmpc",
+    "mingtian"
+  ],
+  "license": "GNU General Public License v3.0",
+  "icon": "assets/melon/logo/logo.png",
+  "environment": "client",
+  "mixins": [
+    "mixins.melon.json"
+  ],
+  "accessWidener": "melon.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "1.20.1"
+  }
+}
